@@ -18,7 +18,7 @@ While not Browser("Browser").Page("Casa - Buscar con Google").WebButton("Prefere
 	wait 3
 Wend
 
-ReporteReporter.ReportEvent micPass, "Palabra encontrada", "Se encontraron resultados de la palabra"
+Reporter.ReportEvent micPass, "Buscar palabra", "Palabra encontrada"
 
 Browser("Browser").Close
 
